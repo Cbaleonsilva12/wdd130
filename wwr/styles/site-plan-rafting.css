@@ -6,10 +6,10 @@
     --accent2-color: #F5F5F5;
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
-    --nav-bg-color: #2F5260;
+    --nav-background-color: #2F5260;
     --nav-link-color: #F5F5F5;
     --nav-hover-link-color: #FFC145;
-    --nav-hover-bg-color: #759AAB;
+    --nav-hover-background-color: #759AAB;
   }
   
   body {

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --primary-color: #2F5260;
+    --secondary-color: #F5F5F5;
+    --accent1-color: #FFC145;
+    --accent2-color: #F5F5F5;
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --nav-background-color: #2F5260;
+    --nav-link-color: #759AAB;
+    --nav-hover-link-color: #FFC145;
+    --nav-hover-background-color: #759AAB;
+}
+

@@ -74,3 +74,32 @@
         float: right;
         width: 300px;
     }
+
+    header {
+        display: grid;
+        grid-template-columns: auto auto; /* Dos columnas: una para el logo y otra para la navegación */
+        align-items: center; 
+        padding: 20px;
+        background-color: var(--third-color);
+        color: #555;
+    }
+    
+    logo {
+        font-size: 24px;
+    }
+    
+    header nav {
+        display: grid;
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Distribuir el espacio disponible entre los elementos de navegación */
+        grid-gap: 10px; /* Espacio entre elementos de navegación */
+    }
+    
+    header nav a {
+        color: var(--secondary-color);
+        text-decoration: none;
+        text-align: center; /* Centrar el texto */
+        padding: 10px;
+        background-color: #555; /* Color de fondo de los enlaces */
+        border-radius: 5px; /* Bordes redondeados */
+    }

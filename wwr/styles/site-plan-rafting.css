@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: ;
+    --secondary-color: ;
+    --accent-color: ;
+    --additional-accent-color: ;
+    --heading-font: ;
+    --paragraph-or-default-font: ;
+    --navigation-background-color: ;
+    --navigation-link-color: ;
+    --navigation-hover-link-color: ;
+    --navigation-hover-background-color: ;
+}
+
+h1,h2,h3,h4{
+    color:var(--accent-color);
+    font-family: var(--heading-font);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+
+}
+
+nav a{
+    display: block;
+    color:var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link , nav a:visited {
+    color:var(--navigation-link-color)
+
+}
+
+nav:hover {
+    color: var(--navigation-hover-link-color);
+    background-color:var(--navigation-hover-background-color) ;
+
+
+}

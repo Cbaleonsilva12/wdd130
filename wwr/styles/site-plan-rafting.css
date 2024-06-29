@@ -7,19 +7,19 @@ body{
 }
 
 :root{
-    --primary-color: ;
-    --secondary-color: ;
-    --accent-color: ;
-    --additional-accent-color: ;
-    --heading-font: ;
-    --paragraph-or-default-font: ;
-    --navigation-background-color: ;
-    --navigation-link-color: ;
-    --navigation-hover-link-color: ;
-    --navigation-hover-background-color: ;
+    --primary-color:#134266 ;
+    --secondary-color: #78C5D7;
+    --accent-color: #F8F8FF;
+    --additional-accent-color:#FCE172 ;
+    --heading-font: Bebas;
+    --paragraph-or-default-font:Bebas ;
+    --navigation-background-color:#FCE172 ;
+    --navigation-link-color:#134266 ;
+    --navigation-hover-link-color: #F8F8FF;
+    --navigation-hover-background-color:#FCE172 ;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
     color:var(--accent-color);
     font-family: var(--heading-font);
 }
@@ -45,17 +45,14 @@ nav a{
     color:var(--navigation-link-color);
     text-decoration: none;
     padding: 1rem;
-
 }
 
 nav a:link , nav a:visited {
     color:var(--navigation-link-color)
-
 }
 
-nav:hover {
+nav a:hover {
     color: var(--navigation-hover-link-color);
     background-color:var(--navigation-hover-background-color) ;
-
-
 }
+

@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --primary-color:#134266 ;
+    --secondary-color: #78C5D7;
+    --accent-color: #F8F8FF;
+    --additional-accent-color:#FCE172 ;
+    --heading-font: "Bebas Neue", sans-serif;
+    --paragraph-or-default-font:Bebas Neue, sans-serif;
+    --navigation-background-color:#FCE172 ;
+    --navigation-link-color:#134266 ;
+    --navigation-hover-link-color: #F8F8FF;
+    --navigation-hover-background-color:#FCE172 ;
+    --font-color:#555B6E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1, h2{
+ font-family: var(--heading-font)
+
+}
+
+p{
+    font-family: var(--paragraph-or-default-font);
+}
+

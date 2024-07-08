@@ -85,8 +85,9 @@ div .hero{
    text-align: center;
 }
 
- a{
+  footer {
 
     display: inline;
     width: 250px;
+    height: 200px;
 }

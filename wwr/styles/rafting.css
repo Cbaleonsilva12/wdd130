@@ -7,7 +7,7 @@
     --accent-color: #F8F8FF;
     --additional-accent-color:#FCE172 ;
     --heading-font: "Bebas Neue", sans-serif;
-    --paragraph-or-default-font:Bebas Neue, sans-serif;
+    --paragraph-or-default-font:"Bebas Neue", sans-serif;
     --navigation-background-color:#FCE172 ;
     --navigation-link-color:#134266 ;
     --navigation-hover-link-color: #F8F8FF;
@@ -23,11 +23,70 @@
 }
 
 h1, h2{
- font-family: var(--heading-font)
-
+ font-family: var(--heading-font);
+ color:var(--font-color);
 }
 
 p{
     font-family: var(--paragraph-or-default-font);
+    color: var(--font-color);
 }
 
+footer a{
+ text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+div .hero{
+
+    position: relative;
+   
+}
+
+.hero h1, .hero article{
+    position: absolute;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article{
+    width: 80%;
+    background-color: rgba(0,0,0,0.5);
+    top: 70%;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+    
+}
+.hero p{
+    font-size: 20px;
+    color: var(--accent-color);
+    text-align: center;
+}
+.hero article img{
+    width: 300px;
+    float: right;
+
+}
+
+.hero h1{
+    top: 55%;
+    color: antiquewhite;
+    background-color: #134266;
+    width: 100%;
+   text-align: center;
+}
+
+ a{
+
+    display: inline;
+    width: 250px;
+}

@@ -177,7 +177,7 @@ div .hero{
 footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
-    align-items: center; /* Alinea los elementos verticalmente al centro */
+    align-items: end; /* Alinea los elementos verticalmente al centro */
     max-width: 1800px; /* Asegúrate de establecer un ancho máximo */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
@@ -188,14 +188,9 @@ footer p {
     margin-bottom: 20px; /* Añade margen inferior para separación */
 }
 
-footer .icons {
-    grid-column: 2 / 3; /* Coloca los íconos en la segunda columna */
-    justify-self: end; /* Alinea el contenedor de íconos al final de la segunda columna */
-    display: flex; /* Usa flexbox para alinear los íconos horizontalmente */
-    gap: 10px; /* Añade espacio entre los íconos */
-}
-
 footer  img {
     width: 35px;
     height: auto;
+    justify-content: end;
+    align-items: end;
 }

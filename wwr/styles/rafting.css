@@ -127,7 +127,7 @@ div .hero{
 
 .grid-section {
     display: grid;
-    grid-template-rows: auto auto; /* Ajusta automáticamente la altura de las filas */
+    grid-template-rows: auto auto; 
     justify-content: center;
     align-items: center;
     max-width: 1800px;
@@ -139,58 +139,59 @@ div .hero{
     width: 100%;
     font-size: 85px;
     color: #134266;
-    margin-bottom: 20px; /* Añade margen inferior para separar del párrafo */
+    margin-bottom: 20px; 
 }
 
 .grid-section p {
     font-size: 19px;
     text-align: justify;
     width: 1000px;
-    margin: 0 auto 20px; /* Centra y añade margen inferior para separación */
+    margin: 0 auto 20px; 
 }
 
-.flex-images {
+.adventure {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 columnas iguales */
-    grid-template-rows: repeat(2, auto); /* Ajusta automáticamente la altura de las filas */
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(2, auto); 
     gap: 10px;
-    margin: 40px auto; /* Añade margen superior e inferior */
+    margin: 40px auto; 
     padding: 65px;
 }
 
-.flex-images h2 {
-    grid-column: 1 / -1; /* Hace que el h2 ocupe todas las columnas */
-    text-align: center; /* Centra el texto del h2 */
-    margin-bottom: 20px; /* Añade margen inferior para separación */
+.adventure h2 {
+    grid-column: 1 / -1; 
+    text-align: center; 
+    margin-bottom: 20px; 
     font-size: 65px;
 
 }
 
-.flex-images img {
+.adventure img {
     width: 220px;
     height: 190px;
-    justify-self: center; /* Centra horizontalmente las imágenes */
-    align-self: center; /* Centra verticalmente las imágenes */
-    
+    justify-self: center; 
+    align-self: center; 
 }
 
 footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
-    align-items: end; /* Alinea los elementos verticalmente al centro */
-    max-width: 1800px; /* Asegúrate de establecer un ancho máximo */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: end; 
+    max-width: 1800px; 
+    margin: 0 auto; 
 }
 
 footer p {
-    grid-column: 1 / span 2; /* Hace que el párrafo ocupe ambas columnas */
-    text-align: center; /* Centra el texto del párrafo */
-    margin-bottom: 20px; /* Añade margen inferior para separación */
+    grid-column: 1 / span 2; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 footer  img {
+    display: flex;
     width: 35px;
     height: auto;
     justify-content: end;
-    align-items: end;
+    align-items: flex-end;
+    justify-self:flex-end;
 }
